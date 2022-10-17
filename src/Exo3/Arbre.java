@@ -7,4 +7,5 @@ public interface Arbre <T> {
     boolean contient(final T val);
     Set<T> valeurs();
 
+    /*Integer somme();*/
 }

@@ -39,7 +39,21 @@ public class Noeud <T> implements Arbre <T> {
         return rtr;
     }
 
-
+    /*@Override
+    public Integer somme() {
+        if (fils == null || fils.size() == 0)
+            return null; // should it be 0 ? no because nothing to sum
+        // alternative without 0 initialization
+        // int rtr = fils.get(0).somme();
+        // for (int i = 1; i<fils.size(); i++) {
+        //     rtr += fils.get(i).somme();
+        // }
+        int rtr = 0;
+        for (Arbre a : fils) {
+            rtr += a.somme();
+        }
+        return rtr;
+    }*/
 
 
 
