@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8386043d-bcf8-455d-ba49-629e1b0701c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exo3/Chaine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exo3/Arbre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exo3/Arbre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exo3/Entier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exo3/Entier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exo3/Feuille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exo3/Feuille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exo3/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exo3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exo3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exo3/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exo3/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +74,20 @@
       <option name="project" value="LOCAL" />
       <updated>1666014661408</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Question 2 et 3">
+      <created>1666019444100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666019444100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V0.1" />
     <MESSAGE value="Généralisation Arbre, feuille et noeud" />
-    <option name="LAST_COMMIT_MESSAGE" value="Généralisation Arbre, feuille et noeud" />
+    <MESSAGE value="Question 2 et 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 2 et 3" />
   </component>
 </project>
