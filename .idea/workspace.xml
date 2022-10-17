@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8386043d-bcf8-455d-ba49-629e1b0701c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exo3/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/URL git hub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exo3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exo3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666019444100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Question 2 et 3 test">
+      <created>1666020517388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666020517388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V0.1" />
     <MESSAGE value="Généralisation Arbre, feuille et noeud" />
     <MESSAGE value="Question 2 et 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question 2 et 3" />
+    <MESSAGE value="Question 2 et 3 test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 2 et 3 test" />
   </component>
 </project>

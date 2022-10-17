@@ -20,6 +20,23 @@ public class Main {
         System.out.println(f2.contient(new Entier(3)));
         System.out.println(f2.contient(new Entier(2)));
 
-        /*final Arbre<Entier> f4 = new Feuille<>(1);*/
+
+
+
+        final Arbre<Chaine> f4 = new Feuille<Chaine>(new Chaine("1"));
+        final Arbre<Chaine> f5 = new Feuille<Chaine>(new Chaine("2"));
+        final Arbre<Chaine> n3 = new Noeud<>(List.of(f1,f2));
+        final Arbre<Chaine> f6 = new Feuille<Chaine>(new Chaine("3"));
+        final Arbre<Chaine> n4 = new Noeud<>(List.of(n1,f3));
+
+        System.out.println(n4.contient(new Chaine("4")));
+        System.out.println(n4.contient(new Chaine ("1")));
+        System.out.println(n4.taille());
+        System.out.println(n4.valeurs());
+
+        System.out.println(f5.valeurs());
+        System.out.println(f5.taille());
+        System.out.println(f5.contient(new Chaine("3")));
+        System.out.println(f5.contient(new Chaine("2")));
     }
 }
