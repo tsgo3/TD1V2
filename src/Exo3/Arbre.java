@@ -2,10 +2,10 @@ package Exo3;
 
 import java.util.Set;
 
-public interface Arbre <T> {
+public interface Arbre <T extends Sommable> {
     int taille();
     boolean contient(final T val);
     Set<T> valeurs();
 
-    /*Integer somme();*/
+    T somme();
 }

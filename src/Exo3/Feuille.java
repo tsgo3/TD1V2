@@ -2,7 +2,7 @@ package Exo3;
 
 import java.util.Set;
 
-public class Feuille <T> implements Arbre <T>{
+public class Feuille <T extends Sommable<T>> implements Arbre <T>{
 
     private final T valeur;
 
@@ -25,8 +25,9 @@ public class Feuille <T> implements Arbre <T>{
         return Set.of(valeur);
     }
 
-   /* @Override
-    public Integer somme() {
+    @Override
+    public T somme() {
         return valeur;
-    }*/
+    }
+
 }

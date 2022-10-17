@@ -1,16 +1,17 @@
 package Exo3;
 
-public class Entier<T> implements Sommable<T>{
+public class Entier implements Sommable<Entier>{
 
-    T a;
+    //valeur de l'objet
+    public int a;
 
-    public Entier(T a)
+    public Entier(int a)
     {
         this.a=a;
     }
 
     @Override
-    public T sommer(T t) {
-        return t;
+    public Entier sommer(Entier t) {
+        return new Entier(this.a + t.a);
     }
 }
